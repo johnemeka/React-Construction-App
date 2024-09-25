@@ -9,12 +9,18 @@ body {
 	min-height: 100vh;
 	background-color: #fff;
 	overflow-x: hidden;
+	scroll-behavior: smooth;
+
 }
 
 ::-webkit-scrollbar {
 	width: 9px;
 	height: 9px;
 }
+::-webkit-scrollbar{
+    @apply hidden
+}
+
 ::-webkit-scrollbar * {
 	background: transparent;
 }
