@@ -98,33 +98,33 @@ const Navbar = () => {
       </div>
 
       <ul className='flex flex-col items-center gap-2 mt-2  px-5 text-lg font-medium'>
-          <a to="/"   onClick={()=>setShownMenu(false)} >
+          <a href="/"   onClick={()=>setShownMenu(false)} >
             <li className='px-4 py-2  rounded inline-block' >
               Home
             </li>
           </a>
-          <a to="#about"   onClick={()=>setShownMenu(false)} >
+          <a href="#about"   onClick={()=>setShownMenu(false)} >
             <li className='px-4 py-2  rounded inline-block' >
               About
             </li>
           </a>
-          <a to="#project" onClick={()=>setShownMenu(false)} >
+          <a href="#project" onClick={()=>setShownMenu(false)} >
             <li className='px-4 py-2  rounded inline-block' >
               Projects
             </li>
           </a>
-          <a to="#services"  onClick={()=>setShownMenu(false)} >
+          <a href="#services"  onClick={()=>setShownMenu(false)} >
             <li className='px-4 py-2  rounded inline-block' >
               Services
             </li>
           </a>
-          <a to="#news"  onClick={()=>setShownMenu(false)} >
+          <a href="#news"  onClick={()=>setShownMenu(false)} >
             <li className='px-4 py-2  rounded inline-block' >
               News
             </li>
           </a>
-          <a href="#contacts" onClick={()=>setShownMenu(false)}>
-            <li href="#contacts"  className='px-4 py-2  rounded inline-block' >
+          <a href="#contact" onClick={()=>setShownMenu(false)}>
+            <li   className='px-4 py-2  rounded inline-block' >
               Contact
             </li>
           </a>
